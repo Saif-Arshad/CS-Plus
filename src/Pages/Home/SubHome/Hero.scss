@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.SectionHero{
+height: 100vh;
+overflow: hidden;
+width: 100%;
+color: white;
+background-image: url(../../../assets/Images/Home.jpg);
+background-position: center;
+background-size: cover;
+display: flex;
+flex-direction: row;
+
+.content{
+    // margin-top: 9rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,0) 38%, rgba(0,0,0,1) 86%);
+    height: 100%;
+    width: 100%;
+    position: relative;
+ .content-Sub{
+    position: absolute;
+    right: -100px;
+    top: 7rem;
+    // background:gray;
+    h1{
+    font-size: 70px;
+        
+    text-transform: uppercase;
+        line-height: 70px;
+        font-weight: 900;
+    }
+h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: .9px;
+    
+    }
+    p{
+        width: 70%;
+        margin-top: 30px;
+    }
+    span{
+        color: rgb(229, 224, 224);
+    }
+}
+
+    }
+    
+}
+
+
+// Media Quries  
+
+@media screen and (min-width:485px) and (max-width:558px) {
+    .content{
+        background: rgb(255,255,255);
+        background: linear-gradient(45deg, rgba(255,255,255,0) 13%, rgba(0,0,0,0.7539390756302521) 29%) !important;
+    }
+    .content-Sub{
+        right: -150px !important;
+    }
+}
+@media screen and (max-width:484px) {
+    .content{
+        background: rgb(255,255,255);
+        background: linear-gradient(45deg, rgba(255,255,255,0) 13%, rgba(0,0,0,0.7539390756302521) 29%) !important;
+    }
+    .content-Sub{
+        right: -170px !important;
+        top: 10rem !important;
+        margin-left: .4rem;
+        h1{
+            font-size: 40px !important;
+            line-height: 50px !important;
+        }
+        h2{
+            font-size: 16px !important;
+        }
+        p{
+            width: 60% !important;
+        }
+    }
+
+}
+
