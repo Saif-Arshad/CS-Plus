@@ -8,16 +8,12 @@ import Contact from '../Contact/contact'
 import Software from '../Software/products'
 export default function Home() {
   return (
-   <>
    <div className="HomePage">
-
    <Header/>
     <Hero/>
     <HomeAbout/>
     <Software/>
-    <Contact/>
     <Footer/>
    </div>
-   </>
   )
 }
