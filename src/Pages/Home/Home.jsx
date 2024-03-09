@@ -4,6 +4,8 @@ import Header from '../../Components/Header/Header'
 import HomeAbout from './SubHome/HomeAbout'
 import './Home.scss'
 import Footer from '../../Components/Footer/footer'
+import Contact from '../Contact/contact'
+import Software from '../Software/products'
 export default function Home() {
   return (
    <>
@@ -12,6 +14,8 @@ export default function Home() {
    <Header/>
     <Hero/>
     <HomeAbout/>
+    <Software/>
+    <Contact/>
     <Footer/>
    </div>
    </>
