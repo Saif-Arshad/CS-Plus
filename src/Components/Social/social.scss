@@ -1,6 +1,7 @@
 .social-buttons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 50px;
     align-items: center;
     background-color: white;
@@ -8,6 +9,13 @@
     padding: 15px 10px;
     border-radius: 5em;
     width: 50%;
+  }
+  @media screen and (max-width:630px) {
+    .social-buttons {
+      a{
+        margin-top: 10px;
+      }  
+    }
   }
   
   .social-button {
